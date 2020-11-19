@@ -22,5 +22,5 @@ def calc_ACGT_count(seq:Seq) -> str:
                        seq.count("T")]
     return " ".join([str(i) for i in ACGT_count_list])
 
-print(calc_ACGT_count(load_seq("dna.txt")))
+print(calc_ACGT_count(load_seq("rosalind_dna.txt")))
 
